@@ -1,10 +1,10 @@
 const Engineer = require("../lib/Engineer.js");
 
 describe("Engineer", () => {
-    const name = "Samir Nagheenanaj";
-    const id = 12;
-    const email = "samir.nagheenanaj@initech.com";
-    const gitHubUsername = "bravotango";
+    const name = "Paul McCartney";
+    const id = 26;
+    const email = "PaulBeatle@abbeyroad.com";
+    const gitHubUsername = "timmysigs";
     const role = "Engineer";
     const returnedGitHub = `<a href="https://github.com/${gitHubUsername}">https://github.com/${gitHubUsername}</a>`;
 
@@ -19,7 +19,6 @@ describe("Engineer", () => {
     });
 
     it("Should return the Engineer id when requested", () => {
-        expect(testEngineer.getId()).toBe(id);
     });
 
     it("Should return the Engineer email when requested", () => {

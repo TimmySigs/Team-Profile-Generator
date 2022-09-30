@@ -1,9 +1,9 @@
 const Employee = require("../lib/employee.js");
 
 describe("Getters", () => {
-    const name = "Peter Gibbons";
-    const id = 33;
-    const email = "peter.gibbons@initech.com";
+    const name = "George Harrison";
+    const id = 22;
+    const email = "HarryBeatle@abbeyroad.com";
     const role = "Employee";
 
     const testEmployee = new Employee(name, id, email);

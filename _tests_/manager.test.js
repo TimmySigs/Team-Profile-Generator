@@ -1,10 +1,10 @@
 const Manager = require("../lib/Manager.js");
 
 describe("Manager", () => {
-    const name = "Bill Lumbergh";
+    const name = "John Lennon";
     const id = 0;
-    const email = "bill.lumbergh@initech.com";
-    const officeNumber = "cubical45";
+    const email = "JohnBeatle@gmail.com";
+    const officeNumber = "cubical 8";
     const role = "Manager";
     const testManager = new Manager(name, id, email, officeNumber);
 

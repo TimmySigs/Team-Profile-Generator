@@ -1,10 +1,10 @@
 const Intern = require("../lib/Intern.js");
 
 describe("Intern", () => {
-    const name = "Milton Waddams";
+    const name = "ringo Starr";
     const id = 22;
-    const email = "milton.waddams@initech.com";
-    const school = "University of Washington";
+    const email = "forgottenone@abbeyroad.com";
+    const school = "University of Liverpool";
     const role = "Intern";
     const testIntern = new Intern(name, id, email, school);
 
