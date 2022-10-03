@@ -6,7 +6,7 @@ describe("Engineer", () => {
     const email = "PaulBeatle@abbeyroad.com";
     const gitHubUsername = "timmysigs";
     const role = "Engineer";
-    const returnedGitHub = `<a href="https://github.com/${gitHubUsername}">https://github.com/${gitHubUsername}</a>`;
+    const returnedGitHub = `<a href="https://github.com/${gitHubUsername}\" target=\"_blank\">https://github.com/${gitHubUsername}</a>`;
 
     const testEngineer = new Engineer(name, id, email, gitHubUsername);
 
